@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# PyInstaller (distribua o .exe pela aba Releases)
+build/
+dist/
+
+# PDFs gerados pelo programa
+*.pdf
+!docs/*.pdf
+
+# Editores e sistema operacional
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
