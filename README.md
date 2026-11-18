@@ -53,10 +53,12 @@ São até 6 atendimentos por semana (180 fichas em 12 páginas). A agenda fica n
 
 ### Opção 1: executável (Windows)
 
-1. Baixe o `.exe` na aba **Releases**.
+1. Baixe o `gerador-fichas-senhas.exe` na aba **Releases**. Ele é um arquivo único, com as imagens já embutidas.
 2. Abra o programa e informe a terça-feira que inicia a semana.
 3. Desmarque os atendimentos cancelados e clique em **Gerar PDF**.
 4. Escolha onde salvar e imprima.
+
+> Como o executável não é assinado digitalmente, o Windows pode exibir um aviso do SmartScreen. Clique em **Mais informações** e depois em **Executar assim mesmo**.
 
 ### Opção 2: código-fonte
 
@@ -99,7 +101,7 @@ py -m pip install pyinstaller
 py -m PyInstaller gerador_fichas_senhas.spec
 ```
 
-O arquivo `gerador_fichas_senhas.exe` é criado em `dist/`, já com a pasta `assets/` embutida.
+O arquivo `gerador-fichas-senhas.exe` é criado em `dist/`, já com a pasta `assets/` embutida.
 
 ## Tecnologias e destaques técnicos
 
